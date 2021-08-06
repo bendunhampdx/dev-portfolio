@@ -34,17 +34,17 @@ body {
 .sticky button {
   color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  border-radius: 38px;
-background: linear-gradient(145deg, #fad0ff, #d3afe6);
-box-shadow:  5px 5px 10px #816b8c,
-             -5px -5px 10px #ffffff;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #e5a301, #c18901);
+  box-shadow:  5px 5px 10px #563d00,
+               -5px -5px 10px #fff302;
   margin-top: 10px;
   margin-left: 25px;
   display: inline-block;
 }
 h1 {
   text-align: center;
-  margin-top: 35px;
+  margin-top: 55px;
   font-family: 'Comfortaa', cursive;
 }
   a { color: inherit; } 
@@ -86,10 +86,12 @@ h1 {
     /* background-color: darkkhaki;  */
   }
   .div5 { 
-    grid-area: 2 / 2 / 3 / 3;}
-    .main-timeline{
-      overflow: hidden;
-      position: relative;
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .main-timeline{
+    overflow: hidden;
+    position: relative;
+      
   }
   .main-timeline .timeline{
       position: relative;
