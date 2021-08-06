@@ -30,9 +30,16 @@ body {
   width: 50%;
 }
 
-.btn {
+.sticky button {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 38px;
+background: linear-gradient(145deg, #fad0ff, #d3afe6);
+box-shadow:  5px 5px 10px #816b8c,
+             -5px -5px 10px #ffffff;
+  margin-top: 10px;
   margin-left: 25px;
-  box-shadow:0 2px 3px black;
+  display: inline-block;
 }
 h1 {
   text-align: center;
