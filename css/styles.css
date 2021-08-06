@@ -1,5 +1,6 @@
 body {
-  
+  height: max-content;
+  background: linear-gradient(141deg, #B3C8FF 0%, #26438F 51%, #D69800 75%);
 }
 .card {
   margin: auto;
@@ -57,7 +58,7 @@ h1 {
   
   .div1 { 
     grid-area: 1 / 1 / 2 / 2;
-    background-color: aqua; 
+    /* background-color: aqua;  */
 
   }
   .div1 img {
@@ -78,11 +79,11 @@ h1 {
   }
   .div3 { 
     grid-area: 1 / 3 / 2 / 4;
-    background-color: gold; 
+    /* background-color: gold;  */
   }
   .div4 { 
     grid-area: 2 / 1 / 3 / 2;
-    background-color: darkkhaki; 
+    /* background-color: darkkhaki;  */
   }
   .div5 { 
     grid-area: 2 / 2 / 3 / 3;}
@@ -260,11 +261,11 @@ h1 {
   
   .div6 { 
     grid-area: 2 / 3 / 3 / 4;
-    background-color: seagreen; 
+    /* background-color: seagreen;  */
   }
   .div7 { 
     grid-area: 3 / 1 / 4 / 2;
-    background-color: coral; 
+    /* background-color: coral;  */
   }
   .div8 { 
     grid-area: 3 / 2 / 4 / 3;
@@ -272,20 +273,20 @@ h1 {
   }
   .div9 { 
     grid-area: 3 / 3 / 4 / 4;
-    background-color: plum; 
+    /* background-color: plum;  */
   }
   .div10 { 
     grid-area: 4 / 1 / 5 / 2;
-    background-color: aqua; 
+    /* background-color: aqua;  */
   }
   .div11 { 
     grid-area: 4 / 2 / 5 / 3;
-    background-color: lavenderblush; 
+    /* background-color: lavenderblush;  */
     
   }
   
   
   .div12 { 
     grid-area: 4 / 3 / 5 / 4;
-    background-color: hotpink; 
+    /* background-color: hotpink;  */
   }
