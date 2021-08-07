@@ -2,34 +2,7 @@ body {
   height: max-content;
   background: linear-gradient(141deg, #B3C8FF 0%, #26438F 51%, #D69800 75%);
 }
-.card {
-  margin: auto;
-  margin-top: 10px;
-  margin-left: 7.5%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  display: inline-block;
-  box-sizing: border-box;
-  box-shadow:
-  0 1.6px 1.2px rgba(0, 0, 0, 0.063),
-  0 3.4px 2.7px rgba(0, 0, 0, 0.093),
-  0 5.8px 4.6px rgba(0, 0, 0, 0.115),
-  0 8.7px 6.9px rgba(0, 0, 0, 0.133),
-  0 12.5px 10px rgba(0, 0, 0, 0.15),
-  0 17.7px 14.2px rgba(0, 0, 0, 0.167),
-  0 25.1px 20.1px rgba(0, 0, 0, 0.185),
-  0 36.5px 29.2px rgba(0, 0, 0, 0.207),
-  0 56.3px 45px rgba(0, 0, 0, 0.237),
-  0 100px 80px rgba(0, 0, 0, 0.3)
-;
-}
-.card img {
-  margin: auto;
-  padding: 10px;
-  display: block;
-  box-sizing: border-box;
-  width: 50%;
-}
+
 
 .sticky button {
   color: black;
@@ -46,8 +19,11 @@ h1 {
   text-align: center;
   margin-top: 55px;
   font-family: 'Comfortaa', cursive;
+  color: white;
 }
-  a { color: inherit; } 
+  a { 
+    color: inherit; 
+  } 
 .parent {
   display: grid;
   grid-template-columns: .5fr 2fr .5fr;
@@ -58,7 +34,7 @@ h1 {
   
   .div1 { 
     grid-area: 1 / 1 / 2 / 2;
-    /* background-color: aqua;  */
+   
 
   }
   .div1 img {
@@ -68,6 +44,18 @@ h1 {
     margin-top: 20px;
     box-sizing: border-box;
     float: left;
+  }
+  .div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    display: block;
+    margin: auto;
+    margin-top: 250px;
+    box-sizing: border-box;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-decoration: underline;
+    color: ghostwhite;
   }
   div.sticky { 
     grid-area: 1 / 2 / 2 / 3;
@@ -79,11 +67,16 @@ h1 {
   }
   .div3 { 
     grid-area: 1 / 3 / 2 / 4;
-    /* background-color: gold;  */
+   
   }
   .div4 { 
     grid-area: 2 / 1 / 3 / 2;
-    /* background-color: darkkhaki;  */
+    
+  }
+  .div4 ol {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: x-large;
   }
   .div5 { 
     grid-area: 2 / 2 / 3 / 3;
@@ -263,32 +256,74 @@ h1 {
   
   .div6 { 
     grid-area: 2 / 3 / 3 / 4;
-    /* background-color: seagreen;  */
+  }
+  .div6 ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: x-large;
   }
   .div7 { 
     grid-area: 3 / 1 / 4 / 2;
-    /* background-color: coral;  */
+  }
+  .div7 ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: x-large;
   }
   .div8 { 
     grid-area: 3 / 2 / 4 / 3;
   
   }
+  .card {
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 7.5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow:
+    0 1.6px 1.2px rgba(0, 0, 0, 0.063),
+    0 3.4px 2.7px rgba(0, 0, 0, 0.093),
+    0 5.8px 4.6px rgba(0, 0, 0, 0.115),
+    0 8.7px 6.9px rgba(0, 0, 0, 0.133),
+    0 12.5px 10px rgba(0, 0, 0, 0.15),
+    0 17.7px 14.2px rgba(0, 0, 0, 0.167),
+    0 25.1px 20.1px rgba(0, 0, 0, 0.185),
+    0 36.5px 29.2px rgba(0, 0, 0, 0.207),
+    0 56.3px 45px rgba(0, 0, 0, 0.237),
+    0 100px 80px rgba(0, 0, 0, 0.3)
+  ;
+  }
+  .card img {
+    margin: auto;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+  }
   .div9 { 
     grid-area: 3 / 3 / 4 / 4;
-    /* background-color: plum;  */
+ 
+  }
+  .div9 ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: x-large;
   }
   .div10 { 
     grid-area: 4 / 1 / 5 / 2;
-    /* background-color: aqua;  */
+    
   }
   .div11 { 
     grid-area: 4 / 2 / 5 / 3;
-    /* background-color: lavenderblush;  */
+    
     
   }
   
   
   .div12 { 
     grid-area: 4 / 3 / 5 / 4;
-    /* background-color: hotpink;  */
+    
   }
+  
