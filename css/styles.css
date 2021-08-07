@@ -275,11 +275,10 @@ h1 {
   }
   .div8 { 
     grid-area: 3 / 2 / 4 / 3;
-  
+    
   }
   .card {
     margin: auto;
-    margin-top: 10px;
     margin-left: 7.5%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -320,7 +319,9 @@ h1 {
   }
   .div11 { 
     grid-area: 4 / 2 / 5 / 3;
-    
+    margin: auto;
+
+    display: inline-block;
     
   }
   
