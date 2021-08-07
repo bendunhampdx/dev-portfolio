@@ -41,6 +41,7 @@ h1 {
     top: 0;
     margin: auto;
     margin-top: 50px;
+    z-index: 7;
   }
   
   .sticky button {
